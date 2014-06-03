@@ -15,7 +15,7 @@
 development:
   adapter: postgresql
   encoding: unicode
-  database: refinery_database_development
+  database: wellrailed_development
   pool: 5
   min_messages: warning
 
@@ -40,13 +40,13 @@ development:
 test:
   adapter: postgresql
   encoding: unicode
-  database: refinery_database_test
+  database: wellrailed_test
   pool: 5
   min_messages: warning
 
 production:
   adapter: postgresql
   encoding: unicode
-  database: refinery_database_production
+  database: wellrailed_production
   pool: 5
   min_messages: warning
